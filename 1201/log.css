@@ -7,6 +7,14 @@ a:hover {text-decoration: none; font-weight: bold; color: #000000;}
 header, section, footer, aside, time, nav, article, figure, figcaption, hgroup{display: block;}
 body{text-align: center;}
 
+
+#empty {
+    width: 100%;
+    border: 0;
+    height: 300px;
+    margin: 20px;
+}
+
 #wrapper{
 	width: 1800px;
 	margin: 15px auto;
