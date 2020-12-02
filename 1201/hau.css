@@ -63,3 +63,21 @@ body{text-align: center;}
 
 }
 /*home end*/
+
+
+/*result*/
+.wrap{
+	width: 1800px;
+	height: 800px;
+	overflow-x: scroll;
+	white-space:nowrap;
+  }
+.wrap div{
+	width:30%;height:70%;
+	text-align:center; 
+	padding-top:80px; 
+	margin:80px;
+	display: inline-block;
+	vertical-align: top;
+}
+/*result end*/
