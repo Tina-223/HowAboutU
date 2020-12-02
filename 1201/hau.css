@@ -45,16 +45,16 @@ body{text-align: center;}
 
 /*home*/
 #home_whole{
-	width: 1000px;
+	width: 1200px;
 	margin: 0 auto;
 	margin-top: 250px;
 }
 #home_info{
-	width: 500px;
+	width: 600px;
 	float: left;	
 }
 #home_sign{
-	width: 500px;
+	width: 600px;
 	float:left;
 }
 #home_info_text{
@@ -81,3 +81,18 @@ body{text-align: center;}
 	vertical-align: top;
 }
 /*result end*/
+
+/*search*/
+#keyword_search{
+	width:1200px;
+	margin:auto;
+	padding-top:50px;
+}
+
+#keyword_search div{
+
+	padding-left: 50px;
+	padding-right: 50px;
+}
+/*search end*/
+
