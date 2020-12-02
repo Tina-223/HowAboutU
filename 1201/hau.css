@@ -81,3 +81,59 @@ body{text-align: center;}
 	vertical-align: top;
 }
 /*result end*/
+
+
+/*button*/
+
+.button {
+	display: inline-block;
+	width: 200px;
+	height: 54px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 54px;
+	outline: none;
+}
+.button::before,
+.button::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+   content: '';
+   
+}
+.button,
+.button::before,
+.button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.button {
+	background-color: #fff;
+   border-color: #424242;
+   border: 10px;
+	color: #424242;
+   line-height: 50px;
+   line-color : #424242;
+}
+.button:hover {
+	background-color: #ebfbff;
+	border: 2px solid #98dfff;
+	color: #424242;
+}
+/*button end*/
+
+/*input*/
+
+#input_title {
+	width:200px;
+	height:100px;
+	font-size:20px;
+}
+
+  /*input end*/
+
+
