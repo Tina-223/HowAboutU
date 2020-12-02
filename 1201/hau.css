@@ -72,28 +72,12 @@ body{text-align: center;}
 	overflow-x: scroll;
 	white-space:nowrap;
   }
-.wrap img{
-	  width:1000px;
-	  /*height:100%;*/
-  }
-
-.b1,.b2,.b3{
-	width:30%;height:75%;
+.wrap div{
+	width:30%;height:70%;
 	text-align:center; 
 	padding-top:80px; 
 	margin:80px;
-	float:left;
-	}
-
-.b1{
-	background-Color:#6c49bd;
-}
-
-.b2{
-	background-Color:#FFF2FF;
-}
-
-.b3{
-	background-Color:#6531dd;
+	display: inline-block;
+	vertical-align: top;
 }
 /*result end*/
