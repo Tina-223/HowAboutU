@@ -1,0 +1,22 @@
+@import "https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css";
+
+* {
+  box-sizing: border-box;
+}
+
+Link{
+    
+}
+
+.navi{
+    float: left;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+form{
+    content:'';
+    display:block;
+    clear:both;
+ }
